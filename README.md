@@ -1,3 +1,17 @@
+# House Marketplace
+
+## Usage
+
+### Geolocation
+
+The listings use Google geocoding to get the coords from the address field. You need to add your Google Geocode API key on .env OR in the **CreateListing.jsx** file you can set **geolocationEnabled** to "false" and it will add a lat/lng field to the form.
+
+### Run
+
+```bash
+npm start
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
